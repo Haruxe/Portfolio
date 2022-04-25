@@ -1,0 +1,151 @@
+.folio__Features {
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.folio__Features h1 {
+    color: #00ADB5;
+    font-family: var(--font-family2);
+    text-align: right;
+    margin-right: 2.3rem;
+    font-size: 48px;
+}
+
+.folio__Features_Body {
+    padding: 5rem;
+    padding-bottom: 8rem;
+    background-color: #191919;
+    border-radius: 25px;
+    margin: 4rem 2rem;
+}
+
+.folio__Features_Body_Text p, ul {
+    color: #bdbdbd;
+    font-family: var(--font-family);
+    text-align: right;
+    font-size: 40px;
+}
+
+.folio__Features_Body_Icon {
+    padding-left: auto;
+    padding-right: 4rem;
+    margin-right: 0;
+    position: absolute;
+}
+
+.folio__Features_Body_Icon img {
+    max-width: 20%;
+    filter:brightness(100);
+}
+
+.folio__Features_Body_mainText p, ul {
+    margin-top: 8rem;
+    text-align: left;
+    padding: 0rem 1rem;
+    font-size: 30px;
+}
+
+.folio__link {
+    color:#00ADB5;
+}
+
+.folio__Features_Title_Sub p {
+    font-size: 18px;
+    margin-top: 1rem;
+    color: white;
+}
+
+.folio__certificate {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.folio__certificate-entry {
+    margin: 6rem;
+    align-items: center;
+}
+
+.folio__certificate-entry * {
+    width: 500px;
+}
+
+.folio__certificate-entry img {
+    cursor: pointer;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.folio__certificate-entry p {
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+#unity {
+    width: 320px;
+    margin-left: 5rem;
+}
+
+.folio__Features_Body_Image {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.folio__Features_Body_Image img {
+    position:static;
+    align-self: center;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+    
+    .folio__certificate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .folio__Features__Body *{
+        width: 500px !important;
+    }
+    .folio__certificate-entry * {
+        width: 300px;
+    }
+    .folio__certificate *{
+        margin: 10px !important;
+        padding: 0px;
+    }
+    .folio__Features_Body_Text p {
+        color: #bdbdbd;
+        font-family: var(--font-family);
+        font-size: 20px;
+        text-align: center;
+    }
+    .folio__Features_Body_Icon img {
+        display: none;
+    }
+    .folio__Features_Body {
+        padding: 2rem;
+    }
+    #unity {
+        margin: 0rem;
+    }
+    .folio__Features_Body_mainText p, ul {
+        margin-top: 2rem;
+    }
+    
+}
+
+.scale-in-center{-webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+ .folio__caption-text {
+     color: #bdbdbdac !important;
+     font-size: 25px !important;
+ }
