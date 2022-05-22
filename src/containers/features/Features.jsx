@@ -1,10 +1,12 @@
 import React from 'react'
 import './Features.css';
+import '../../index.css'
 import icon from '../../assets/EthLogo.png';
 import ISTQB from '../../assets/ISTQB.jpg';
 import UNITY from '../../assets/UNITY.png';
-import JungleFriends from '../../assets/Promo.gif';
 import HardBreach from '../../assets/Hardbreach.png';
+import WalletWrapped from '../../assets/wall.png'
+import anti from '../../assets/anti.png'
 
 const Feature = () => (
 <>
@@ -19,18 +21,16 @@ const Feature = () => (
       </p>
       </div>
       <div className='folio__Features_Title_Sub' id='folio'>
-        <p>
-          
-        </p>
       </div>
       <div className='folio__certificate' >
               <div className = 'folio__certificate-entry'>
-                <a href='https://twitter.com/JungleFriendNFT' alt='junglefriends' target='_blank'><img src={JungleFriends} alt='jungleGIF' className='scale-in-center'/></a>
+                <a href='https://walletwrapped.info' alt='walletwrapped link' target='_blank'><img src={WalletWrapped} alt='jungleGIF' className='scale-in-center'/></a>
                 <p>
-                Jungle Friends NFT
+                WalletWrapped
                 </p>
                 <p className='folio__caption-text'>
-                Work in Progress NFT: TBA
+                WalletWrapped is a website I created with React and Ethers.js for users to be able to learn useful tracking information
+                about their NFT and wallet history. It also uses etherscan's api to make calls regarding user's transactions.
                 </p>
               </div>
               <div className = 'folio__certificate-entry' >
@@ -39,14 +39,21 @@ const Feature = () => (
                 Hardbreach
                 </p>
                 <p className='folio__caption-text'>
-                Hardbreach is a game I developed in one week built for a game jam competition with one teammate.
+                Hardbreach is a game I developed in one week built for a game jam competition with one teammate in January of this year. Hardbreach
+                is a first person strategy game based around moving quickly to avoid projectiles. I built the game in Unity3D with C#. 
+                </p>
+              </div>
+              <div className = 'folio__certificate-entry' >
+                <a href='https://github.com/Haruxe/Anti/' alt='anti' target='_blank'><img src={anti} alt='hardbreachPNG' className='scale-in-center'/></a>
+                <p>
+                Anti
+                </p>
+                <p className='folio__caption-text'>
+                Anti is a social media platform designed to aggregate social media accounts for developers in the Web3 space with NFT profile pictures. Developers can submit projects and links to them, with the posts being hosted on a combination of IPFS and the Polygon Network (Mumbai). When posting, users can set the flair/tag of the post, which helps others find their posts quicker.
                 </p>
               </div>
             </div>
       <div className='folio__Features_Body_mainText'>
-          <p>
-            I am currently working on a DeFi application, stay tuned!!
-          </p>
         </div>
     </div>
 </div>
@@ -110,6 +117,8 @@ const Feature2 = () => (
     </div>
     </>
     )
+
+    
 
 function Features() {
   return (
