@@ -27,11 +27,11 @@ const Feature = () => (
                 WalletWrapped
                 </p>
                 <p className='folio__caption-text'>
-                WalletWrapped is a website I created with React and Ethers.js for users to be able to learn useful tracking information
-                about their NFT and wallet history. It leverages etherscan's api to make calls regarding user's transactions.
+                WalletWrapped is a website I created for users to be able to learn useful and fun tracking information
+                about their/other's NFT and wallet history. It leverages etherscan's api to make calls regarding user's transactions.
                 </p>
                 <p className='folio__caption-text_sub'>
-                REACT · TYPESCRIPT · ETHERS.JS
+                REACT · TYPESCRIPT · TAILWIND.CSS
                 </p>
               </div>
               <div className = 'folio__certificate-entry' >
