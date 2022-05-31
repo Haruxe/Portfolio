@@ -56,6 +56,7 @@ a {
     }
     
 }
+
 @media screen and (min-width: 1600px) {
     .subclass {
         max-width: 1600px;

@@ -170,3 +170,13 @@
   position: fixed;
   margin-left: 22rem;
 }
+
+@media screen and (max-width: 800px) {
+  .folio__header_text_main {
+    font-size: 3rem;
+  }
+
+  .folio__header_text_sub {
+    font-size: 2rem;
+  }
+}

@@ -7,14 +7,12 @@ import UNITY from '../../assets/UNITY.png';
 import HardBreach from '../../assets/Hardbreach.png';
 import WalletWrapped from '../../assets/wall.png'
 import anti from '../../assets/anti.png'
+import knight from '../../assets/knight.gif'
 
 const Feature = () => (
 <>
 <div className='folio__Features_Body' id='projects'>
     <div className='folio__Features_Body_Text'>
-      <div className='folio__Features_Body_Icon'>
-        <img src={icon} alt='icon' />
-      </div>
       <div className='folio__Features_Title'>
       <p>
         PERSONAL PROJECTS
@@ -30,7 +28,7 @@ const Feature = () => (
                 </p>
                 <p className='folio__caption-text'>
                 WalletWrapped is a website I created with React and Ethers.js for users to be able to learn useful tracking information
-                about their NFT and wallet history. It also uses etherscan's api to make calls regarding user's transactions.
+                about their NFT and wallet history. It leverages etherscan's api to make calls regarding user's transactions.
                 </p>
               </div>
               <div className = 'folio__certificate-entry' >
@@ -52,6 +50,15 @@ const Feature = () => (
                 Anti is a social media platform designed to aggregate social media accounts for developers in the Web3 space with NFT profile pictures. Developers can submit projects and links to them, with the posts being hosted on a combination of IPFS and the Polygon Network (Mumbai). When posting, users can set the flair/tag of the post, which helps others find their posts quicker.
                 </p>
               </div>
+              <div className = 'folio__certificate-entry' >
+                <a href='https://harux.itch.io/knight-shift-kings-march' alt='knightshift' target='_blank'><img src={knight} alt='knightPNG' className='scale-in-center'/></a>
+                <p>
+                Knight Shift: King's March
+                </p>
+                <p className='folio__caption-text'>
+                I led developmnet in a game called "Knight Shift" which is an entry to a game jam I entered with 2 other teammates. We built the game in Unity3D with C#. 
+                </p>
+              </div>
             </div>
       <div className='folio__Features_Body_mainText'>
         </div>
@@ -64,9 +71,6 @@ const Feature2 = () => (
   <>
   <div className='folio__Features_Body' id='about'>
       <div className='folio__Features_Body_Text'>
-        <div className='folio__Features_Body_Icon' >
-          <img src={icon} alt='icon' />
-        </div>
         <p id='bio'>
           ABOUT ME
         </p>
@@ -89,9 +93,6 @@ const Feature2 = () => (
     <>
     <div className='folio__Features_Body' id='education'>
         <div className='folio__Features_Body_Text'>
-          <div className='folio__Features_Body_Icon'>
-            <img src={icon} alt='icon' />
-          </div>
           <p>
             FORMAL EDUCATION
           </p>

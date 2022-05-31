@@ -19,12 +19,13 @@
     background-color: #191919;
     border-radius: 5px;
     margin: 4rem 2rem;
+    outline: 1px solid #464646;
 }
 
 .folio__Features_Body_Text p, ul {
     color: #bdbdbd;
     font-family: var(--font-family);
-    text-align: right;
+    text-align: center;
     font-size: 40px;
 }
 
@@ -42,7 +43,7 @@
 
 .folio__Features_Body_mainText p, ul {
     margin-top: 8rem;
-    text-align: left;
+    text-align: middle;
     padding: 0rem 1rem;
     font-size: 30px;
 }
@@ -68,12 +69,14 @@
 
 .folio__certificate-entry {
     align-items: center;
-    width: 500px;
     margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .folio__certificate-entry * {
     width: 500px;
+    
 }
 
 .folio__certificate-entry img {
@@ -98,7 +101,7 @@
 }
 
 .folio__Features_Body_Image img {
-    position:static;
+    position: static;
     align-self: center;
     padding: 2rem;
 }
@@ -109,6 +112,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        
     }
 }
 
@@ -116,6 +120,8 @@
 
     .folio__Features__Body *{
         width: 500px !important;
+        place-content: middle;
+        place-items: middle;
     }
     .folio__certificate-entry * {
         width: 300px;
@@ -130,11 +136,8 @@
         font-size: 20px;
         text-align: center;
     }
-    .folio__Features_Body_Icon img {
-        display: none;
-    }
     .folio__Features_Body {
-        padding: 2rem;
+        padding: 1rem 0rem;
     }
     #unity {
         margin: 0rem;
