@@ -8,7 +8,7 @@
 
     padding: 1rem 4rem;
     z-index: 1000;
-    width: 5000px;
+    width: 1400px;
 }
 
 .folio__navbar * {
@@ -74,7 +74,6 @@
 
 .folio__navbar-contact {
     right: 50px;
-    position: fixed;
     margin-right: auto;
 }
 
@@ -115,12 +114,17 @@
     margin: 1rem 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
     .folio__navbar-links_container {
         display: none;
     }
     .folio__navbar {
-        padding: 2rem;
+        padding: 1rem 2rem;
     }
 }
 
+@media screen and (max-width: 1400px){
+    .folio__navbar{
+        width: 100%;
+    }
+}

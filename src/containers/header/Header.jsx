@@ -15,7 +15,7 @@ function Header() {
         </div>
         <div className='folio__header_text_sub slide-in-right-delay'>
           <h1>
-          I develop decentralized software.
+          I develop highly secure web3 software
           </h1>
         </div>
       </div>

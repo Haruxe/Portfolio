@@ -57,9 +57,9 @@ a {
     
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
     .subclass {
-        max-width: 1600px;
+        max-width: 1400px;
         align-items: center;
         margin-left: auto;
         margin-right: auto;

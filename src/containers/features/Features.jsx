@@ -103,7 +103,9 @@ const Feature2 = () => (
                 <p>
                 My ISTB Advanced Level Test Analyst Certification gives me
                 the tools to create various testing enviornments to ensure
-                the integrity of my software in all levels of development.
+                the integrity of my software in all levels of development. It also
+                tought me in depth about the different software development cycles like agile
+                to organijze my development and allows me to integrate with different teams.
                 </p>
               </div>
               <div className = 'folio__certificate-entry'>
