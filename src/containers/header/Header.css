@@ -17,6 +17,7 @@
     margin-left: auto;
     margin-right: 2rem;
     margin-top: 2rem;
+    padding-left: 2rem;
 }
 
 .folio__header_text_containter h1 {
@@ -177,6 +178,6 @@
   }
 
   .folio__header_text_sub {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 }
