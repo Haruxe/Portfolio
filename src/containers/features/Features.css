@@ -67,6 +67,11 @@
     
 }
 
+.folio__caption-text_sub {
+    font-size: 2rem !important;
+    margin-top: 2rem;
+}
+
 .folio__certificate-entry {
     align-items: center;
     margin: 40px;

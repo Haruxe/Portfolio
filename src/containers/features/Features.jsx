@@ -6,7 +6,7 @@ import ISTQB from '../../assets/ISTQB.jpg';
 import UNITY from '../../assets/UNITY.png';
 import HardBreach from '../../assets/Hardbreach.gif';
 import WalletWrapped from '../../assets/wall.gif'
-import anti from '../../assets/anti.png'
+import anti from '../../assets/anti.gif'
 import knight from '../../assets/knight.gif'
 
 const Feature = () => (
@@ -30,6 +30,9 @@ const Feature = () => (
                 WalletWrapped is a website I created with React and Ethers.js for users to be able to learn useful tracking information
                 about their NFT and wallet history. It leverages etherscan's api to make calls regarding user's transactions.
                 </p>
+                <p className='folio__caption-text_sub'>
+                REACT · TYPESCRIPT · ETHERS.JS
+                </p>
               </div>
               <div className = 'folio__certificate-entry' >
                 <a href='https://harux.itch.io/hardbreach' alt='hardbreach' target='_blank'><img src={HardBreach} alt='hardbreachPNG' className='scale-in-center'/></a>
@@ -40,6 +43,9 @@ const Feature = () => (
                 Hardbreach is a game I developed in one week built for a game jam competition with one teammate in January of this year. Hardbreach
                 is a first person strategy game based around moving quickly to avoid projectiles. I built the game in Unity3D with C#. 
                 </p>
+                <p className='folio__caption-text_sub'>
+                C# · UNITY
+                </p>
               </div>
               <div className = 'folio__certificate-entry' >
                 <a href='https://www.youtube.com/watch?v=V8xgyfnKuFQ' alt='anti' target='_blank'><img src={anti} alt='hardbreachPNG' className='scale-in-center'/></a>
@@ -49,6 +55,9 @@ const Feature = () => (
                 <p className='folio__caption-text'>
                 Anti is a social media platform designed to aggregate social media accounts for developers in the Web3 space with NFT profile pictures. Developers can submit projects and links to them, with the posts being hosted on a combination of IPFS and the Polygon Network (Mumbai). When posting, users can set the flair/tag of the post, which helps others find their posts quicker.
                 </p>
+                <p className='folio__caption-text_sub'>
+                SOLIDITY · REACT · MORALIS
+                </p>
               </div>
               <div className = 'folio__certificate-entry' >
                 <a href='https://harux.itch.io/knight-shift-kings-march' alt='knightshift' target='_blank'><img src={knight} alt='knightPNG' className='scale-in-center'/></a>
@@ -57,6 +66,9 @@ const Feature = () => (
                 </p>
                 <p className='folio__caption-text'>
                 I led developmnet in a game called "Knight Shift" which is an entry to a game jam I entered with 2 other teammates. We built the game in Unity3D with C#. 
+                </p>
+                <p className='folio__caption-text_sub'>
+                C# · UNITY
                 </p>
               </div>
             </div>
