@@ -4,8 +4,8 @@ import '../../index.css'
 import icon from '../../assets/EthLogo.png';
 import ISTQB from '../../assets/ISTQB.jpg';
 import UNITY from '../../assets/UNITY.png';
-import HardBreach from '../../assets/Hardbreach.png';
-import WalletWrapped from '../../assets/wall.png'
+import HardBreach from '../../assets/Hardbreach.gif';
+import WalletWrapped from '../../assets/wall.gif'
 import anti from '../../assets/anti.png'
 import knight from '../../assets/knight.gif'
 
@@ -42,7 +42,7 @@ const Feature = () => (
                 </p>
               </div>
               <div className = 'folio__certificate-entry' >
-                <a href='https://github.com/Haruxe/Anti/' alt='anti' target='_blank'><img src={anti} alt='hardbreachPNG' className='scale-in-center'/></a>
+                <a href='https://www.youtube.com/watch?v=V8xgyfnKuFQ' alt='anti' target='_blank'><img src={anti} alt='hardbreachPNG' className='scale-in-center'/></a>
                 <p>
                 Anti
                 </p>
@@ -94,7 +94,7 @@ const Feature2 = () => (
     <div className='folio__Features_Body' id='education'>
         <div className='folio__Features_Body_Text'>
           <p>
-            FORMAL EDUCATION
+            EDUCATION
           </p>
           <div className='folio__Features_Body_mainText'>
             <div className='folio__certificate'>
