@@ -105,13 +105,13 @@ const Feature2 = () => (
                 the tools to create various testing enviornments to ensure
                 the integrity of my software in all levels of development. It also
                 tought me in depth about the different software development cycles like agile
-                to organijze my development and allows me to integrate with different teams.
+                to organize my development and allows me to integrate with different teams.
                 </p>
               </div>
               <div className = 'folio__certificate-entry'>
                 <a href='https://www.credly.com/badges/392a6e11-235e-4efd-8d45-594036528fee/linked_in' target='_blank'><img src={UNITY} alt='UNITY' id='unity' className='scale-in-center'/></a>
                 <p>
-                Whilst developing games for Unity, I achieved the Certified Programmer Certification while developing a game jam project.
+                In order to test my experience with C# in Unity, I achieved the Unity Programmer Certification.
                 </p>
               </div>
             </div>

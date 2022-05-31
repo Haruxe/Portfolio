@@ -81,7 +81,8 @@
 
 .folio__certificate-entry img {
     cursor: pointer;
-    border-radius: 5px;
+    outline: 2px solid #46464652;
+    padding: 5px;
 }
 
 .folio__certificate-entry p {
