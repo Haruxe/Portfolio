@@ -8,6 +8,7 @@ import HardBreach from '../../assets/Hardbreach.gif';
 import WalletWrapped from '../../assets/wall.gif'
 import anti from '../../assets/anti.gif'
 import knight from '../../assets/knight.gif'
+import frndz from '../../assets/frndz.gif'
 
 const Feature = () => (
 <>
@@ -69,6 +70,18 @@ const Feature = () => (
                 </p>
                 <p className='folio__caption-text_sub'>
                 C# · UNITY
+                </p>
+              </div>
+              <div className = 'folio__certificate-entry' >
+                <a href='https://junglefriendsmint.vercel.app' alt='junglefriends' target='_blank'><img src={frndz} alt='knightPNG' className='scale-in-center'/></a>
+                <p>
+                Jungle FRNDZ
+                </p>
+                <p className='folio__caption-text'>
+                As a proof of concept, I created a demo site for the minting of an NFT called Jungle FRNDZ.
+                </p>
+                <p className='folio__caption-text_sub'>
+                NEXT.JS · THREE.JS · TAILWIND.CSS
                 </p>
               </div>
             </div>
