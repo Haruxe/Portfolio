@@ -11,6 +11,7 @@ import knight from "../../assets/knight.gif";
 import frndz from "../../assets/frndz.gif";
 import oz from "../../assets/oz.jpg";
 import dvd from "../../assets/damn.png";
+import KaijuLogs from "../../assets/Kaijulogs.gif";
 
 const Feature = () => (
   <>
@@ -101,6 +102,25 @@ const Feature = () => (
               game in Unity3D with C#.
             </p>
             <p className="folio__caption-text_sub">C# · UNITY</p>
+          </div>
+          <div className="folio__certificate-entry">
+            <a
+              href="https://kaijukingzlog.vercel.app/"
+              alt="kaiju link"
+              target="_blank"
+            >
+              <img
+                src={KaijuLogs}
+                alt="Kaiju Logs"
+                className="scale-in-center"
+              />
+            </a>
+            <p>KaijuKingz Logs</p>
+            <p className="folio__caption-text">
+              In June 2022 I created a website that reads transaction data
+              centered around the NFT ecosystem, KaijuKingz.
+            </p>
+            <p className="folio__caption-text_sub">REACT · ETHERS.JS</p>
           </div>
           <div className="folio__certificate-entry">
             <a
