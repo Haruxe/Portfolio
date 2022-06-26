@@ -153,18 +153,19 @@ const Feature2 = () => (
         <p id="bio">ABOUT ME</p>
         <div className="folio__Features_Body_mainText">
           <p>
-            Hello! I am Josh Francisco, a web3 developer and auditor specialized
-            in security. In the beginning, my programming history came from
-            developing games with Unity. I have a history in QA with ISTQB, and
-            I have always been taught to build highly tested software. I have
-            led development and design in various web3 applications and have
-            experience with EVM security from CTFs like OpenZeppelin's
-            Ethernaut, and Damn Vulnerable Defi. I audit smart contracts on
-            Code4rena and Immunify, and I also develop front end apps in
-            hackathons and other community events. I believe that security is a
-            necessity when it comes to any online network, and it holds a very
-            important role in blockchain especially in this time of early
-            adoption. As the Web3 space is still in its infancy, making
+            Hello! I am Josh Francisco, a Web3 developer and auditor specialized
+            in security. In the beginning, I learnt my programming fundementals
+            from developing games with Unity. I have a history in QA, and
+            through the process of going through ISTQB's foundation and advanced
+            level testing certificates, I have always been taught to build
+            highly tested software. I have led development and design in various
+            web3 applications and have experience with EVM security from CTFs
+            like OpenZeppelin's Ethernaut, and Damn Vulnerable Defi. I audit
+            smart contracts on Code4rena and Immunify, and I also develop front
+            end apps in hackathons and other community events. I believe that
+            security is a necessity when it comes to any online network, and it
+            holds a very important role in blockchain especially in this time of
+            early adoption. As the Web3 space is still in its infancy, making
             cryptocurrency and assets like NFTs easy to build atop of is of
             utmost importance so that both individuals and organizations can
             build great things.

@@ -3,7 +3,7 @@ import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 import "./Navbar.css";
-import resume from "../../assets/Josh_Francisco.pdf";
+import resume from "../../assets/Josh_Francisco_Resume.pdf";
 import { File4 } from "styled-icons/remix-fill";
 import { FileEarmarkPerson } from "styled-icons/bootstrap";
 
