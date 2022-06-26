@@ -24,6 +24,42 @@ const Feature = () => (
         <div className="folio__certificate">
           <div className="folio__certificate-entry">
             <a
+              href="https://kaijukingzlog.vercel.app/"
+              alt="kaiju link"
+              target="_blank"
+            >
+              <img
+                src={KaijuLogs}
+                alt="Kaiju Logs"
+                className="scale-in-center"
+              />
+            </a>
+            <p>KaijuKingz Logs</p>
+            <p className="folio__caption-text">
+              In June 2022 I created a website that reads transaction data
+              centered around the NFT ecosystem, KaijuKingz.
+            </p>
+            <p className="folio__caption-text_sub">REACT · ETHERS.JS</p>
+          </div>
+          <div className="folio__certificate-entry">
+            <a
+              href="https://junglefriendsmint.vercel.app"
+              alt="junglefriends"
+              target="_blank"
+            >
+              <img src={frndz} alt="knightPNG" className="scale-in-center" />
+            </a>
+            <p>Jungle FRNDZ</p>
+            <p className="folio__caption-text">
+              As a proof of concept, I created a demo site for the minting of an
+              NFT called Jungle FRNDZ.
+            </p>
+            <p className="folio__caption-text_sub">
+              NEXT.JS · THREE.JS · TAILWIND.CSS
+            </p>
+          </div>
+          <div className="folio__certificate-entry">
+            <a
               href="https://walletwrapped.info"
               alt="walletwrapped link"
               target="_blank"
@@ -102,42 +138,6 @@ const Feature = () => (
               game in Unity3D with C#.
             </p>
             <p className="folio__caption-text_sub">C# · UNITY</p>
-          </div>
-          <div className="folio__certificate-entry">
-            <a
-              href="https://kaijukingzlog.vercel.app/"
-              alt="kaiju link"
-              target="_blank"
-            >
-              <img
-                src={KaijuLogs}
-                alt="Kaiju Logs"
-                className="scale-in-center"
-              />
-            </a>
-            <p>KaijuKingz Logs</p>
-            <p className="folio__caption-text">
-              In June 2022 I created a website that reads transaction data
-              centered around the NFT ecosystem, KaijuKingz.
-            </p>
-            <p className="folio__caption-text_sub">REACT · ETHERS.JS</p>
-          </div>
-          <div className="folio__certificate-entry">
-            <a
-              href="https://junglefriendsmint.vercel.app"
-              alt="junglefriends"
-              target="_blank"
-            >
-              <img src={frndz} alt="knightPNG" className="scale-in-center" />
-            </a>
-            <p>Jungle FRNDZ</p>
-            <p className="folio__caption-text">
-              As a proof of concept, I created a demo site for the minting of an
-              NFT called Jungle FRNDZ.
-            </p>
-            <p className="folio__caption-text_sub">
-              NEXT.JS · THREE.JS · TAILWIND.CSS
-            </p>
           </div>
         </div>
         <div className="folio__Features_Body_mainText"></div>
@@ -241,7 +241,7 @@ function Features() {
   return (
     <div className="folio__Features">
       <Feature />
-      <Feature2 />
+      {/* <Feature2 /> */}
       <Feature3 />
     </div>
   );

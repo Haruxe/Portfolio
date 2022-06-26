@@ -14,8 +14,7 @@
 }
 
 .folio__Features_Body {
-  padding: 5rem;
-  padding-bottom: 8rem;
+  padding: 2rem;
   background-color: #191919;
   border-radius: 5px;
   margin: 4rem 2rem;
@@ -27,7 +26,7 @@ ul {
   color: #bdbdbd;
   font-family: var(--font-family);
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .folio__Features_Body_Icon {
@@ -47,7 +46,7 @@ ul {
   margin-top: 8rem;
   text-align: middle;
   padding: 0rem 1rem;
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .folio__link {
@@ -136,7 +135,7 @@ ul {
   .folio__Features_Body_Text p {
     color: #bdbdbd;
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
   .folio__Features_Body {
@@ -148,6 +147,7 @@ ul {
   .folio__Features_Body_mainText p,
   ul {
     margin-top: 2rem;
+    font-size: 20px;
   }
 }
 
