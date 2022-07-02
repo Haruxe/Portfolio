@@ -18,7 +18,7 @@ function BlogPost1() {
           initial={{ x: -200, opacity: 0 }}
         >
           <h1 className=" text-red-500 lg:text-6xl font-bold font-serif text-2xl">
-            My Ethereum Security Blog. //
+            The Haruxe Security Blog. //
           </h1>
         </motion.div>
 

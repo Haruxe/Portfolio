@@ -27,7 +27,7 @@ function Blog() {
           >
             <img src={c4} className="w-12 absolute top-5 right-5" />
             <h1>7.2.22</h1>
-            <h1>My Ethereum Security Blog. //</h1>
+            <h1>The Haruxe Security Blog. //</h1>
             <p className="mt-3 text-lg font-medium">
               Creating a blog to track my progress, teach others about my
               learning process, and how to follow along.
