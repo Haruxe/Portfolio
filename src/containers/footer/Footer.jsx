@@ -4,9 +4,9 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="folio__footer_container outline outline-1 outline-[#464646]">
+    <div className="folio__footer_container">
       <div className="folio__footer_text">
-        Made with <Heart className="w-5" /> by Josh Francisco
+        Created with <Heart className="w-5" /> by Josh Francisco
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ function BlogPost1() {
         <Link to="/blog">
           <LeftArrowAlt className="w-10 pt-[7rem] text-white mb-4" />
         </Link>
-        <h1 className=" text-red-500 lg:text-3xl font-bold font-serif my-3 text-xl">
+        <h1 className=" text-red-500 lg:text-3xl font-bold font-serif my-3 text-2xl">
           7.2.22
         </h1>
         <motion.div
@@ -29,7 +29,7 @@ function BlogPost1() {
         <div className="h-[1px] w-[80px] bg-gray-400 mt-5" />
       </div>
       <div className="text-white lg:text-lg text-md mt-4 w-full lg:w-3/4 px-3">
-        <h1 className="text-4xl mb-3 font-bold font-serif">
+        <h1 className="lg:text-4xl text-2xl mb-3 font-bold font-serif">
           Why Do I Do What I Do?
         </h1>
         <p className="indent-10">
@@ -61,7 +61,7 @@ function BlogPost1() {
           rather than working for an auditing firm the old fashioned way with
           audits.
         </p>
-        <h1 className="text-4xl my-3 font-bold font-serif">
+        <h1 className="lg:text-4xl text-2xl my-3 font-bold font-serif">
           Where / When Did I Start?
         </h1>
         <p className="indent-10">
@@ -91,15 +91,25 @@ function BlogPost1() {
           doing so. But it turned out that going straight into bug bounties
           without knowledge of what to look for is not such a good idea.
         </p>
-        <h1 className="text-4xl my-3 font-bold font-serif">My Resources</h1>
+        <h1 className="lg:text-4xl text-2xl my-3 font-bold font-serif">
+          My Resources
+        </h1>
         <p className="indent-10">
           The absolute best resources for learning about vulnerabilities are
           with CTFs ( Capture The Flag ) challenges like{" "}
-          <a className="text-red-400" target={"_blank"}>
+          <a
+            className="text-red-400"
+            target={"_blank"}
+            href="https://www.joshfrancisco.io/blog/7.2.22"
+          >
             Ethernauts
           </a>{" "}
           and{" "}
-          <a className="text-red-400" target={"_blank"}>
+          <a
+            className="text-red-400"
+            target={"_blank"}
+            href="https://www.damnvulnerabledefi.xyz/"
+          >
             Damn Vulnerable Defi
           </a>
           , which I didn't even complete out of forcing myself to do them - they
@@ -144,7 +154,7 @@ function BlogPost1() {
           quickly. This space is one of the rare cases where you can become very
           skilled in a very short amount of time. Don't stop learning.
         </p>
-        <h1 className="text-4xl my-3 font-bold font-serif">
+        <h1 className="lg:text-4xl text-2xl my-3 font-bold font-serif">
           Goals For The Future
         </h1>
         <p className="indent-10">

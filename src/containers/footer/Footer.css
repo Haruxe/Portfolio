@@ -1,11 +1,10 @@
 .folio__footer_container {
-    background-color: #191919;
-    padding: 1rem;
-    display: flex;
-    justify-content: flex-end;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .folio__footer_text {
-    font-family: var(--font-family);
-    color: #bdbdbd;
+  font-family: var(--font-family);
+  color: #bdbdbd;
 }

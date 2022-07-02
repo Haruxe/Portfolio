@@ -20,7 +20,7 @@ function Blog() {
       <div>
         <Link to="/blog/7.2.22">
           <motion.div
-            className="text-white text-2xl relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8 w-1/2 cursor-pointer"
+            className="text-white lg:text-2xl text-xl relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8 lg:w-1/2 w-full cursor-pointer"
             whileHover={{ backgroundColor: "#2222228f" }}
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
