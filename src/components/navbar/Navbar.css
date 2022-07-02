@@ -55,6 +55,20 @@
   cursor: pointer;
 }
 
+.folio__navbar-links_container2 p,
+.folio__navbar-sign p,
+.folio__navbar-menu_container p {
+  color: #bdbdbd;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  text-transform: capitalize;
+
+  margin: 1rem 1.2rem;
+  cursor: pointer;
+}
+
 .folio__navbar-contact button,
 .folio__navbar-menu_container button {
   padding: 1rem 2rem;
@@ -112,7 +126,7 @@
   margin: 1rem 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .folio__navbar-links_container {
     display: none;
   }

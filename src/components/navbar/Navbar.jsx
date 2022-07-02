@@ -4,19 +4,19 @@ import { LinkedinSquare } from "@styled-icons/boxicons-logos/LinkedinSquare";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 import "./Navbar.css";
 import resume from "../../assets/Josh_Francisco_Resume.pdf";
-import { File4 } from "styled-icons/remix-fill";
 import { FileEarmarkPerson } from "styled-icons/bootstrap";
+import { Link } from "react-router-dom";
 
 const Menu = () => (
   <>
     <p>
-      <a href="#projects">PROJECTS</a>
+      <a href="/#projects">PROJECTS</a>
     </p>
     <p>
-      <a href="#about">ABOUT</a>
+      <a href="/#about">ABOUT</a>
     </p>
     <p>
-      <a href="#education">EDUCATION</a>
+      <a href="/#education">EDUCATION</a>
     </p>
   </>
 );
@@ -29,11 +29,16 @@ function Navbar() {
       <div className="folio__navbar-links">
         <div className="folio__navbar-links_logo text-red-500 font-serif">
           <p>
-            <a href="#top">JF</a>
+            <a href="/">JF</a>
           </p>
         </div>
-        <div className="folio__navbar-links_container">
-          <Menu id="sup" />
+        <div className="folio__navbar-links_container2 flex flex-row">
+          <div className="folio__navbar-links_container">
+            <Menu id="sup" />
+          </div>
+          <p>
+            <Link to="/blog">BLOG</Link>
+          </p>
         </div>
       </div>
       <div className="folio__navbar-contact">
