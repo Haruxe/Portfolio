@@ -15,9 +15,9 @@ import KaijuLogs from "../../assets/Kaijulogs.gif";
 
 const Feature = () => (
   <>
-    <div className="folio__Features_Body" id="projects">
+    <div className="folio__Features_Body " id="projects">
       <div className="folio__Features_Body_Text">
-        <div className="folio__Features_Title">
+        <div className="flex font-serif font-bold p-4">
           <p>PERSONAL PROJECTS</p>
         </div>
         <div className="folio__Features_Title_Sub" id="folio"></div>
@@ -34,7 +34,7 @@ const Feature = () => (
                 className="scale-in-center"
               />
             </a>
-            <p>KaijuKingz Logs</p>
+            <p className="font-serif font-bold">KaijuKingz Logs</p>
             <p className="folio__caption-text">
               In June 2022 I created a website that reads transaction data
               centered around the NFT ecosystem, KaijuKingz.
@@ -49,7 +49,7 @@ const Feature = () => (
             >
               <img src={frndz} alt="knightPNG" className="scale-in-center" />
             </a>
-            <p>Jungle FRNDZ</p>
+            <p className="font-serif font-bold">Jungle FRNDZ</p>
             <p className="folio__caption-text">
               As a proof of concept, I created a demo site for the minting of an
               NFT called Jungle FRNDZ.
@@ -70,7 +70,7 @@ const Feature = () => (
                 className="scale-in-center"
               />
             </a>
-            <p>WalletWrapped</p>
+            <p className="font-serif font-bold">WalletWrapped</p>
             <p className="folio__caption-text">
               WalletWrapped is a website I created for users to be able to learn
               useful and fun tracking information about their/other's NFT and
@@ -93,7 +93,7 @@ const Feature = () => (
                 className="scale-in-center"
               />
             </a>
-            <p>Hardbreach</p>
+            <p className="font-serif font-bold">Hardbreach</p>
             <p className="folio__caption-text">
               Hardbreach is a game I developed in one week built for a game jam
               competition with one teammate in January of this year. Hardbreach
@@ -110,7 +110,7 @@ const Feature = () => (
             >
               <img src={anti} alt="hardbreachPNG" className="scale-in-center" />
             </a>
-            <p>Anti</p>
+            <p className="font-serif font-bold">Anti</p>
             <p className="folio__caption-text">
               Anti is a social media platform designed to aggregate social media
               accounts for developers in the Web3 space with NFT profile
@@ -131,7 +131,7 @@ const Feature = () => (
             >
               <img src={knight} alt="knightPNG" className="scale-in-center" />
             </a>
-            <p>Knight Shift: King's March</p>
+            <p className="font-serif font-bold">Knight Shift: King's March</p>
             <p className="folio__caption-text">
               I led developmnet in a game called "Knight Shift" which is an
               entry to a game jam I entered with 2 other teammates. We built the
@@ -150,8 +150,11 @@ const Feature2 = () => (
   <>
     <div className="folio__Features_Body" id="about">
       <div className="folio__Features_Body_Text">
-        <p id="bio">ABOUT ME</p>
-        <div className="folio__Features_Body_mainText">
+        <div className="flex font-serif font-bold">
+          <p id="bio">ABOUT ME</p>
+        </div>
+
+        <div className="folio__Features_Body_mainText text-left indent-10 mt-5 pl-[1rem]">
           <p>
             Hello! I am Josh Francisco, a Web3 developer and auditor specialized
             in security. In the beginning, I learnt my programming fundementals
@@ -180,7 +183,10 @@ const Feature3 = () => (
   <>
     <div className="folio__Features_Body" id="education">
       <div className="folio__Features_Body_Text">
-        <p>EDUCATION</p>
+        <div className="font-serif font-bold flex">
+          <p>EDUCATION</p>
+        </div>
+
         <div className="folio__Features_Body_mainText">
           <div className="folio__certificate">
             <div className="folio__certificate-entry">

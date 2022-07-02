@@ -16,15 +16,13 @@
 .folio__Features_Body {
   padding: 2rem;
   border-radius: 5px;
-  margin: 4rem 2rem;
+  margin: 4rem 1rem;
   outline: 1px solid #464646;
 }
 
 .folio__Features_Body_Text p,
 ul {
-  color: #bdbdbd;
-  font-family: var(--font-family);
-  text-align: center;
+  color: #ffffff;
   font-size: 50px;
 }
 
@@ -42,8 +40,6 @@ ul {
 
 .folio__Features_Body_mainText p,
 ul {
-  margin-top: 8rem;
-  text-align: middle;
   padding: 0rem 1rem;
   font-size: 22px;
 }
@@ -67,7 +63,6 @@ ul {
 }
 
 .folio__caption-text_sub {
-  font-size: 2rem !important;
   margin-top: 2rem;
 }
 
@@ -89,7 +84,6 @@ ul {
 }
 
 .folio__certificate-entry p {
-  font-family: var(--font-family);
   text-align: center;
 }
 
@@ -132,8 +126,6 @@ ul {
     padding: 0px;
   }
   .folio__Features_Body_Text p {
-    color: #bdbdbd;
-    font-family: var(--font-family);
     font-size: 30px;
     text-align: center;
   }
@@ -180,6 +172,5 @@ ul {
   }
 }
 .folio__caption-text {
-  color: #bdbdbdac !important;
   font-size: 25px !important;
 }
