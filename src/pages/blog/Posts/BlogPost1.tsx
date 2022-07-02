@@ -100,7 +100,7 @@ function BlogPost1() {
           <a
             className="text-red-400"
             target={"_blank"}
-            href="https://www.joshfrancisco.io/blog/7.2.22"
+            href="https://ethernaut.openzeppelin.com/"
           >
             Ethernauts
           </a>{" "}
