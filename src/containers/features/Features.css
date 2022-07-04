@@ -51,10 +51,6 @@ ul {
   margin-right: auto;
 }
 
-.folio__certificate-entry img {
-  cursor: pointer;
-}
-
 .folio__certificate-entry p {
   text-align: center;
 }

@@ -9,7 +9,8 @@ function Blog() {
       <div>
         <motion.div
           animate={{ x: 0, opacity: 1 }}
-          initial={{ x: -200, opacity: 0 }}
+          initial={{ x: -80, opacity: 0 }}
+          transition={{ duration: 0.7 }}
         >
           <h1 className="pt-[7rem] text-red-500 text-6xl font-bold font-serif">
             Blog Posts
