@@ -100,7 +100,7 @@ function BlogPost2() {
           vulnerabilities! Big progress from just finding small QA and gas
           optimization reports. Thanks to the{" "}
           <a
-            href="https://etherscan.io/tx/0xea97f1dee874f21636dfce49382e68b890c51ec045fd0eae7df41a0b5f62e573"
+            href="https://discord.gg/Kaiju-Kingz"
             target={"_blank"}
             className="text-blue-400"
           >
@@ -108,7 +108,7 @@ function BlogPost2() {
           </a>{" "}
           and{" "}
           <a
-            href="https://etherscan.io/tx/0xea97f1dee874f21636dfce49382e68b890c51ec045fd0eae7df41a0b5f62e573"
+            href="https://discord.gg/Fu3svNHuf4"
             target={"_blank"}
             className="text-blue-400"
           >
