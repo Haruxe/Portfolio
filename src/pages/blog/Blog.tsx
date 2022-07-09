@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import c4 from "../../assets/c4.png";
 import { Link } from "react-router-dom";
+import pag from "../../assets/pag.png";
+import catjam from "../../assets/catjam.gif";
 
 function Blog() {
   return (
@@ -18,10 +20,27 @@ function Blog() {
         </motion.div>
         <div className="h-[2px] w-1/12 bg-gray-400 mt-5" />
       </div>
-      <div>
+      <div className="lg:w-1/2 w-full">
+        <Link to="/blog/7.9.22">
+          <motion.div
+            className="text-white lg:text-2xl text-xl relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8 cursor-pointer"
+            whileHover={{ backgroundColor: "#2222228f" }}
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+          >
+            <img src={catjam} className="w-12 absolute top-5 right-5" />
+            <h1>7.9.22</h1>
+            <h1>Week 2 Progress //</h1>
+            <p className="mt-3 text-lg font-medium">
+              News for the blog, whats up in crypto, and personal updates!
+            </p>
+          </motion.div>
+        </Link>
+      </div>
+      <div className="lg:w-1/2 w-full">
         <Link to="/blog/7.2.22">
           <motion.div
-            className="text-white lg:text-2xl text-xl relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8 lg:w-1/2 w-full cursor-pointer"
+            className="text-white lg:text-2xl text-xl relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8 cursor-pointer"
             whileHover={{ backgroundColor: "#2222228f" }}
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
