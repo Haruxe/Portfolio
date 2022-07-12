@@ -258,15 +258,25 @@ const Feature3 = () => (
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <a href="https://kaijukingzlog.vercel.app/" target="_blank">
-              <img src={ISTQB} alt="ISTQB" className="scale-in-center" />
-            </a>
+            <img src={ISTQB} alt="ISTQB" className="scale-in-center" />
             <p className="font-serif font-bold text-3xl mt-5 my-auto">
               ISTQB Advanced Tester
             </p>
             <p className="mt-3 text-xl">
               This gives me the tools to properly test and develop software.
             </p>
+            <div className="flex w-full h-12 justify-center space-x-8 mt-8">
+              <motion.a
+                className="outline outline-1 outline-gray-600 flex w-1/3 justify-center align-middle"
+                whileHover={{ backgroundColor: "#2e2e2e93" }}
+                href="https://atsqa.org/certified-testers/profile/4c580dcca1fc45b0ad87bcb9df7f3a6b"
+                target={"_blank"}
+              >
+                <p className="text-white my-auto font-bold text-xl">
+                  Read More
+                </p>
+              </motion.a>
+            </div>
           </motion.div>
 
           <motion.div
@@ -275,19 +285,29 @@ const Feature3 = () => (
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <a href="https://kaijukingzlog.vercel.app/" target="_blank">
-              <img
-                src={UNITY}
-                alt="UNITY"
-                className="scale-in-center w-1/2 mx-auto max-h-[380px]"
-              />
-            </a>
+            <img
+              src={UNITY}
+              alt="UNITY"
+              className="scale-in-center w-1/2 mx-auto max-h-[380px]"
+            />
             <p className="font-serif font-bold text-3xl mt-5 my-auto">
               Unity Associate Programmer
             </p>
             <p className="mt-3 text-xl">
               A certificate I achieved to ensure quality in Unity games.
             </p>
+            <div className="flex w-full h-12 justify-center space-x-8 mt-8">
+              <motion.a
+                className="outline outline-1 outline-gray-600 flex w-1/3 justify-center align-middle"
+                whileHover={{ backgroundColor: "#2e2e2e93" }}
+                href="https://www.credly.com/badges/392a6e11-235e-4efd-8d45-594036528fee"
+                target={"_blank"}
+              >
+                <p className="text-white my-auto font-bold text-xl">
+                  Read More
+                </p>
+              </motion.a>
+            </div>
           </motion.div>
 
           <motion.div
@@ -296,21 +316,29 @@ const Feature3 = () => (
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <a href="https://ethernaut.openzeppelin.com/" target="_blank">
-              <img
-                src={oz}
-                alt="OPENZEPPELIN"
-                className="scale-in-center w-full max-h-[350px]"
-              />
-            </a>
+            <img
+              src={oz}
+              alt="OPENZEPPELIN"
+              className="scale-in-center w-full max-h-[350px]"
+            />
             <p className="font-serif font-bold text-3xl mt-5 my-auto">
               Ethernaut
             </p>
             <p className="mt-3 text-xl">
-              In June 2022, I completed the Ethernaut CTF created by Open
-              Zeppelin. The CTF involves taking advantage of numerous exploits
-              that are provided with the EVM.
+              A CTF challenge for exploits in DeFi smart contracts.
             </p>
+            <div className="flex w-full h-12 justify-center space-x-8 mt-8">
+              <motion.a
+                className="outline outline-1 outline-gray-600 flex w-1/3 justify-center align-middle"
+                whileHover={{ backgroundColor: "#2e2e2e93" }}
+                href="https://ethernaut.openzeppelin.com/"
+                target={"_blank"}
+              >
+                <p className="text-white my-auto font-bold text-xl">
+                  Read More
+                </p>
+              </motion.a>
+            </div>
           </motion.div>
 
           <motion.div
@@ -319,20 +347,29 @@ const Feature3 = () => (
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <a href="https://ethernaut.openzeppelin.com/" target="_blank">
-              <img
-                src={dvd}
-                alt="DVD"
-                className="scale-in-center w-full max-h-[350px]"
-              />
-            </a>
+            <img
+              src={dvd}
+              alt="DVD"
+              className="scale-in-center w-full max-h-[350px]"
+            />
             <p className="font-serif font-bold text-3xl mt-5 my-auto">
               Damn Vulnerable Defi
             </p>
             <p className="mt-3 text-xl">
-              Also in June 2022, I completed Damn Vulnerable Defi, another CTF
-              for EVM exploits in Solidity.
+              A CTF challenge for exploits in DeFi smart contracts.
             </p>
+            <div className="flex w-full h-12 justify-center space-x-8 mt-8">
+              <motion.a
+                className="outline outline-1 outline-gray-600 flex w-1/3 justify-center align-middle"
+                whileHover={{ backgroundColor: "#2e2e2e93" }}
+                href="https://www.damnvulnerabledefi.xyz/"
+                target={"_blank"}
+              >
+                <p className="text-white my-auto font-bold text-xl">
+                  Read More
+                </p>
+              </motion.a>
+            </div>
           </motion.div>
         </div>
       </div>
