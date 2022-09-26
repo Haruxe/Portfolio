@@ -49,7 +49,7 @@ function Features() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.4 }}
       >
-        <img src={img} alt={title} className={"max-h-[400px] mx-auto"} />
+        <img src={img} alt={title} className={"max-h-[250px] mx-auto"} />
         <p className="font-serif font-bold text-xl mt-5 my-auto">{title}</p>
         {summary ? <p className="mt-3 text-md">{summary}</p> : <></>}
         <div className="flex mt-6 space-x-5 w-full justify-center mx-auto">
@@ -111,14 +111,14 @@ function Features() {
       <>
         <Panel
           title="KaijuKingz Logs"
-          summary="Genesiscollection with allowlist / professional website."
+          summary="A website monitoring KaijuKingz NFT Transactions."
           code="https://github.com/erc1337-Coffee/Extractions_Log"
           link="https://kaijukingzlog.vercel.app/"
           img="/images/Kaijulogs.gif"
         />
         <Panel
           title="Web3SG Genesis"
-          summary="A website monitoring KaijuKingz NFT Transactions."
+          summary="Genesis NFT collection smart contract with allowlist / professional website."
           code="https://github.com/Haruxe/web3sg"
           link="https://web3sg.net"
           img="/images/web3sg.gif"
@@ -132,8 +132,7 @@ function Features() {
         />
         <Panel
           title="Anti"
-          summary="A social media platform built atop Polygon and Moralis that I
-          built for a Hackathon."
+          summary="A social media platform built atop Polygon and Moralis for a Hackathon."
           code="https://github.com/Haruxe/Anti"
           link="https://anti-966l3isq5-haruxe.vercel.app/home"
           img="/images/anti.gif"
@@ -146,8 +145,7 @@ function Features() {
         />
         <Panel
           title="Knight Shift: King's March"
-          summary="A social media platform built atop Polygon and Moralis that I
-          built for a Hackathon."
+          summary="A short Unity strategy game made in a weekend for a game-jam."
           link="https://harux.itch.io/knight-shift-kings-march"
           img="/images/knight.gif"
         />

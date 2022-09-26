@@ -13,7 +13,7 @@ function BlogPost2() {
           <LeftArrowAlt className="w-10 pt-[7rem] text-white mb-4" />
         </Link>
 
-        <h1 className=" text-red-500 lg:text-3xl font-bold font-serif my-3 text-2xl">
+        <h1 className=" text-green-500 lg:text-3xl font-bold font-serif my-3 text-2xl">
           7.2.22
         </h1>
 
@@ -22,7 +22,7 @@ function BlogPost2() {
           initial={{ x: -80, opacity: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h1 className=" text-red-500 lg:text-6xl font-bold font-serif text-2xl">
+          <h1 className=" text-green-500 lg:text-6xl font-bold font-serif text-2xl">
             Week 2 Progress//
           </h1>
         </motion.div>
@@ -82,7 +82,7 @@ function BlogPost2() {
           <a
             href="https://pwning.mirror.xyz/"
             target={"_blank"}
-            className="text-red-400"
+            className="text-green-400"
           >
             pwning.eth
           </a>{" "}
@@ -128,7 +128,7 @@ function BlogPost2() {
         <h1 className="lg:text-4xl text-2xl mb-3 font-bold font-serif mt-10 align-middle">
           New Tool: <Clockify className="w-10 my-auto ml-5" />{" "}
           <a
-            className="uppercase text-red-400"
+            className="uppercase text-green-400"
             href="https://clockify.me/"
             target={"_blank"}
           >
@@ -148,7 +148,7 @@ function BlogPost2() {
         <h1 className="lg:text-4xl text-2xl mb-3 font-bold font-serif align-middle">
           Youtube Video: <Youtube className="w-10 my-auto ml-5" />{" "}
           <a
-            className="uppercase text-red-400"
+            className="uppercase text-green-400"
             href="https://www.youtube.com/watch?v=Hvk63LADbFc"
             target={"_blank"}
           >

@@ -10,7 +10,7 @@ function BlogPost1() {
         <Link to="/blog">
           <LeftArrowAlt className="w-10 pt-[7rem] text-white mb-4" />
         </Link>
-        <h1 className=" text-red-500 lg:text-3xl font-bold font-serif my-3 text-2xl">
+        <h1 className=" text-green-500 lg:text-3xl font-bold font-serif my-3 text-2xl">
           7.2.22
         </h1>
         <motion.div
@@ -18,7 +18,7 @@ function BlogPost1() {
           initial={{ x: -80, opacity: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h1 className=" text-red-500 lg:text-6xl font-bold font-serif text-2xl">
+          <h1 className=" text-green-500 lg:text-6xl font-bold font-serif text-2xl">
             The Haruxe Security Blog. //
           </h1>
         </motion.div>
@@ -52,7 +52,7 @@ function BlogPost1() {
           promise of riches. Skilled bug bounty hunters like the #1 Code4rena
           bounty hunter Christoph Michel AKA{" "}
           <a
-            className="text-red-400"
+            className="text-green-400"
             href="https://cmichel.io/"
             target={"_blank"}
           >
@@ -99,7 +99,7 @@ function BlogPost1() {
           The absolute best resources for learning about vulnerabilities are
           with CTFs ( Capture The Flag ) challenges like{" "}
           <a
-            className="text-red-400"
+            className="text-green-400"
             target={"_blank"}
             href="https://ethernaut.openzeppelin.com/"
           >
@@ -107,7 +107,7 @@ function BlogPost1() {
           </a>{" "}
           and{" "}
           <a
-            className="text-red-400"
+            className="text-green-400"
             target={"_blank"}
             href="https://www.damnvulnerabledefi.xyz/"
           >
