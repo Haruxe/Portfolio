@@ -22,8 +22,8 @@ function Header() {
             <h1 className=" ">Josh Francisco.</h1>
           </motion.div>
         </div>
-        <div className="lg:text-xl text-lg w-3/4 lg:w-full mt-4 text-gray-200 ">
-          <h1>I develop and secure web3 protocols.</h1>
+        <div className="lg:text-xl text-lg mt-4 text-gray-200 ">
+          <h1>I develop and protect highly secure web3 protocols.</h1>
         </div>
       </div>
     </div>
