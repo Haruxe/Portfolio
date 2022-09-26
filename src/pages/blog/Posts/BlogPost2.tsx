@@ -2,9 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { LeftArrowAlt, Music } from "styled-icons/boxicons-solid";
-import catjam from "../../../assets/catjam.gif";
 import { Clockify } from "styled-icons/simple-icons";
-import { Spotify, Youtube } from "styled-icons/remix-fill";
+import { Youtube } from "styled-icons/remix-fill";
 
 function BlogPost2() {
   return (
@@ -31,7 +30,7 @@ function BlogPost2() {
         <p className="mt-3 lg:text-xl text-md text-gray-100 w-full lg:w-1/2">
           News for the blog, whats up in crypto, and personal updates!
         </p>
-        <img src={catjam} className="md:w-[80px] w-[40px] my-5" />
+        <img src={"/images/catjam.gif"} className="md:w-[80px] w-[40px] my-5" />
         <div className="h-[1px] w-[80px] bg-gray-400 mt-5" />
       </div>
       <div className="text-white lg:text-lg text-md mt-4 w-full lg:w-3/4 px-3">

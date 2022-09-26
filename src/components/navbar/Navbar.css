@@ -6,9 +6,9 @@
   background-color: #111111;
   position: fixed;
 
-  padding: 1rem 4rem;
+  padding: 0px 25px;
   z-index: 1000;
-  width: 1400px;
+  width: 1100px;
 }
 
 .folio__navbar * {
@@ -28,7 +28,7 @@
 
 .folio__navbar-links_logo p {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 25px;
   text-transform: capitalize;
 
@@ -61,7 +61,7 @@
   color: #bdbdbd;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25.6px;
   text-transform: capitalize;
 
@@ -86,7 +86,6 @@
 
 .folio__navbar-contact {
   right: 50px;
-  margin-right: auto;
 }
 
 .media {
@@ -131,11 +130,11 @@
     display: none;
   }
   .folio__navbar {
-    padding: 1.4rem 2rem;
+    padding: 0rem 1.2rem;
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1100px) {
   .folio__navbar {
     width: 100%;
   }

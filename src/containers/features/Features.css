@@ -5,10 +5,9 @@
 }
 
 .folio__Features_Body {
-  padding: 1rem;
-  border-radius: 2px;
-  margin: 4rem 1rem;
-  outline: 1px solid #464646;
+  padding: 0.5rem;
+  margin: 1rem 1rem;
+  outline: 1px solid #46464629;
 }
 
 .folio__Features_Body_Icon {
@@ -21,7 +20,6 @@
 .folio__Features_Body_mainText p,
 ul {
   padding: 0rem 1rem;
-  font-size: 22px;
 }
 
 .folio__link {
