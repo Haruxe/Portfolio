@@ -31,7 +31,7 @@ function Blog() {
                 <p className="mt-2 md:text-md text-sm font-medium">
                   I am continuing to post, except on{" "}
                   <a
-                    className="text-purple-400 cursor-pointer hover:text-purple-600"
+                    className="text-purple-400 cursor-pointer hover:text-purple-600 z-20"
                     href="https://mirror.xyz/haruxe.eth"
                     target={"_blank"}
                   >
@@ -62,13 +62,37 @@ function Blog() {
         </motion.div>
         <div className="h-[2px] w-[50px] bg-gray-400 mt-3" />
       </div>
-      <BlogEntry
-        title={"Update //"}
-        date={"9.25.22"}
-        lastPost
-        image={"/images/kaijuSuit.png"}
-        link="/"
-      />
+      <div className="lg:w-1/2 w-full">
+        <div>
+          <motion.div
+            className={
+              "text-white relative font-bold bg-transparent font-serif p-5 outline outline-1 outline-gray-500 rounded-sm mt-8"
+            }
+            animate={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+          >
+            <div>
+              <img
+                src={"/images/kaijuSuit.png"}
+                className="w-8 absolute top-5 right-5"
+              />
+              <h1 className="text-xl">9.25.22</h1>
+              <h1 className="text-xl mt-1">{"Update //"}</h1>
+              <p className="mt-2 md:text-md text-sm font-medium">
+                I am continuing to post, except on{" "}
+                <a
+                  className="text-purple-400 cursor-pointer hover:text-purple-600 z-20"
+                  href="https://mirror.xyz/haruxe.eth"
+                  target={"_blank"}
+                >
+                  mirror.xyz
+                </a>
+                . Follow me there!
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </div>
       <BlogEntry
         title={"Week 2 Progress //"}
         date={"7.9.22"}
